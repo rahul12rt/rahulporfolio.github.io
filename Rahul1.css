@@ -1,0 +1,286 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header{
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,6,46,0.7)) ,url(bb.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-brand{
+    width: 210px;
+    height: 130px;
+}
+
+.nav-link{
+    font-weight: 300;
+    margin: 0px 10px;
+    font-size: 14px;
+    color:white;
+    font-weight: 300;
+    
+}
+
+.nav-link:hover{
+    color:orange;
+}
+
+.menubar{
+
+    color: white;
+
+}
+
+.header-content{
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.header-content-text{
+    color:white;
+    text-align: center;
+   
+    
+}
+.header-content-text h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+.header-content-contact-me{
+    border: 1px solid orange;
+    border-radius: 6px;
+    padding: 6px 16px;
+    text-decoration: none;
+    color:orange ;
+    background: transparent;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.header-content-download-cv{
+    border-radius: 6px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: orange;
+    color:black;
+    font-weight: 600;
+    transition: 0.5s;
+    
+
+}
+
+.header-content-contact-me:hover{
+    border-radius: 6px;
+    padding: 6px 16px;
+    text-decoration: none;
+    color:black ;
+    background: orange;
+    font-weight: 600;
+    border: 2px solid black;
+
+}
+
+.header-content-download-cv:hover{
+    border: 1px solid orange;
+    border-radius: 6px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color:orange ;
+    background: transparent;
+    font-weight: 600;
+   
+}
+
+.About-Page{
+    width: 100%;
+    height: 100vh;
+}
+
+.about-left-content{
+
+    width: 70%;
+    background-color: orange;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+
+.about-left-content:hover{
+
+    width: 70%;
+    background-color: rgb(13, 211, 218);
+    border-radius: 50%;
+}
+
+.Resume{
+   
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+}
+
+.About-button{
+    border: 1px solid orange;
+    border-radius: 6px;
+    padding: 6px 16px;
+    text-decoration: none;
+    color:orange ;
+    background: transparent;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+
+.About-button:hover{
+    border-radius: 6px;
+    padding: 6px 16px;
+    text-decoration: none;
+    color:black ;
+    background: orange;
+    font-weight: 600;
+
+}
+
+.Desktop-view{
+    display: none;
+}
+
+.contact{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50vh;
+    color: white;
+    font-size: medium;
+}
+
+.icon{
+    margin-top: 35px;
+}
+
+.forms{
+    margin-top: 100px;
+    font-size: 14px;
+    border: none;
+}
+
+@media(max-width: 992px){
+
+        
+    .header-content-text h1{
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    .header-content-text p{
+        font-size: 10px;
+        
+    }
+
+    .about-right-content{
+        text-align: center;
+
+    }
+    .about-right-content p{
+        font-size: small;
+    }
+    .about-left-content1{
+        text-align: center;
+    }
+    
+.About-Page{
+    width: 100%;
+    height: 130vh;
+}
+
+.Resume-left-content{
+
+    font-size: small;
+
+    
+
+
+
+}
+}
+
+
+
+
+
+
+@media(max-width: 769px){
+
+    .Resume-left-content{
+
+        font-size: small;
+        text-align: center;
+    }
+    
+    .iframe{
+        display: none;
+    }
+
+    .Desktop-view{
+        display: block;
+        text-align: center;
+        font-weight: 800;
+        font-size: x-large;
+        margin-bottom: 50px;
+    }
+
+    .contact{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
